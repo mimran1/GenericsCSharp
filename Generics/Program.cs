@@ -19,9 +19,8 @@ namespace Generics
 
             System.Console.Write("Stack of integer: ");
             foreach (int i in listInt)
-            {
                 System.Console.Write(i + " ");
-            }
+            
             System.Console.WriteLine("\n");
             
 
@@ -35,9 +34,8 @@ namespace Generics
 
             System.Console.Write("Stack of string: ");
             foreach (string i in listString)
-            {
                 System.Console.Write(i + " ");
-            }
+            
 
             System.Console.WriteLine("\n\nDone.");
             Console.ReadKey();
